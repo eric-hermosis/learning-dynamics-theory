@@ -1,5 +1,6 @@
 # Learning Dynamics
 
+<<<<<<< HEAD
 ## Introduction
 
 This work aims to develop a fundamental theory of artificial learning that both explains existing optimization algorithms and facilitates their improvement as well as the creation of new ones. To this end, only three assumptions were made about a model capable of learning:
@@ -337,3 +338,4 @@ The proposed formalism demonstrated that a Hamiltonian framework can recover the
 - Phase space convergence is guaranteed by the evolution of internal energy.
  
 These results lay the groundwork for a new class of physically-informed optimizers. By identifying where current classical approximations fail, such as the decoupling of the potential from the metric tensor, we open new avenues for incorporating covariant and relativistic dynamics into machine learning, potentially leading to more stable and faster convergence in complex loss landscapes.
+=======
