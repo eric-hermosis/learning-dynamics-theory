@@ -88,7 +88,7 @@ $$
 \{U, \beta\} = 1 \qquad \{w^{i}, Y_{j} \} = \delta^{i}_{j} \qquad \text{with } \delta^{i}_{j} = \begin{cases} 1 \quad i = j \\ 0 \quad i \neq j \end{cases} 
 $$
  
-Then, we can recover an analogous to Hamilton equations [@hamilton1834] for thermodynami parameters to describe the evolution of the model parameters without constraints:
+Then, we can recover an analogous to Hamilton equations [@hamilton1834] for thermodynamic parameters to describe the evolution of the model parameters without constraints:
  
 $$
 -h \frac{dw^{i}}{dt} = k\{w^{i}, H\} = k\frac{\partial H}{\partial Y_{i}} \qquad -\frac{dY_{i}}{dt} = k\{Y_{i}, H  \} = -k\frac{\partial H}{\partial w^{i}}
@@ -262,7 +262,7 @@ $$
 The generalized force now includes a term consistent with that used in gradient descent with weight decay [@krogh_weight_decay], which proposes adding a term $\lambda \mathbf{w}$ to the loss gradient. This is because an extra term is now added to the force:
 
 $$
-F_{\alpha}' = \lambda w_{\alpha}
+F_{i}' = \lambda w_{i}
 $$
 
 If we assume that the system cools exponentially, that is, with a thermal mass:
@@ -340,14 +340,16 @@ These results lay the groundwork for a new class of physically-informed optimize
 
 ## Citation
 
-If you use this work, please cite it as:
+This work is versioned. To cite the **specific version v0.1.0**, use:
 
 Eric Hermosis. *Learning Dynamics*. Version 0.1.0. 2025.  
 DOI: [10.5281/zenodo.18071681](https://doi.org/10.5281/zenodo.18071681)
 
-BibTeX entry:
+To cite the **work in general, including all versions**, use the concept DOI: [10.5281/zenodo.18071680](https://doi.org/10.5281/zenodo.18071680).
 
-```bibtex
+BibTeX entry for v0.1.0:
+
+```text
 @misc{hermosis2025learning,
   author       = {Eric Hermosis},
   title        = {Learning Dynamics},
@@ -357,3 +359,4 @@ BibTeX entry:
   doi          = {10.5281/zenodo.18071681},
   note         = {GitHub repository, archived on Zenodo}
 }
+```
