@@ -337,3 +337,23 @@ The proposed formalism demonstrated that a Hamiltonian framework can recover the
 - Phase space convergence is guaranteed by the evolution of internal energy.
  
 These results lay the groundwork for a new class of physically-informed optimizers. By identifying where current classical approximations fail, such as the decoupling of the potential from the metric tensor, we open new avenues for incorporating covariant and relativistic dynamics into machine learning, potentially leading to more stable and faster convergence in complex loss landscapes.
+
+## Citation
+
+If you use this work, please cite it as:
+
+Eric Hermosis. *Learning Dynamics*. Version 0.1.0. 2025.  
+DOI: [10.5281/zenodo.18071681](https://doi.org/10.5281/zenodo.18071681)
+
+BibTeX entry:
+
+```bibtex
+@misc{hermosis2025learning,
+  author       = {Eric Hermosis},
+  title        = {Learning Dynamics},
+  year         = {2025},
+  version      = {v0.1.0},
+  howpublished = {\url{https://github.com/eric-hermosis/learning-dynamics}},
+  doi          = {10.5281/zenodo.18071681},
+  note         = {GitHub repository, archived on Zenodo}
+}
