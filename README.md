@@ -1,3 +1,3 @@
 # Artificial Learning
 
-This repository accompanies the preprint “Learning Dynamics”, which develops a fundamental theory of artificial learning. The work provides a unified framework that explains existing optimization algorithms under a physics perspective, facilitates their improvement, and enables the creation of new ones.
+The work presents a fundamental theory of artificial learning that aims to explain existing optimization algorithms and support the development of new ones. It is based on a thermodynamic framework, using geometric and Hamiltonian formalisms to derive the evolution equations of learning models. These equations provide a physical grounding for the learning process and show that learning can be understood as a thermodynamic process in which models evolve according to the information they perceive.
