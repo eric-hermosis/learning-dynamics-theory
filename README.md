@@ -25,3 +25,4 @@ BibTeX entry for v0.1.0:
   doi          = {10.5281/zenodo.18071681},
   note         = {GitHub repository, archived on Zenodo}
 }
+```
